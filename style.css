@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.botton a{
+    width: 100px;
+    padding: 5px;
+    text-decoration: none;
+
+    color: white;
+    font-size: 3vh;
+    font-family: "Open Sans", sans-serif;
+
+    border-radius: 10px;
+    background-color: #6BCCEB;
+    border: 1px solid black;
+}
+
+.botton a:hover{
+    transition: 0.6s;
+    background-color: rgba(0, 0, 0, 0.658);
+    color: #6BCCEB;
+    border: 0px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-bar img{
+    height: 5vh;
+}
+
+.nav-list{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-list a{
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 3.5vh;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.nav-bar a:hover{
+    transition: 0.2s;
+    background-color: #6BCCEB;
+    color: white;
+}
+
+.nav-bar .botton a:hover{
+    transition: 0.6s;
+    background-color: rgba(0, 0, 0, 0.658);
+    color: #6BCCEB;
+    border: 0px;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-items: center;
+    padding-top: 20px;
+
+    background-image: url(./assets/12475\ 1.png);
+    background-position: center;
+    background-size: 230vh;
+}
+
+.text-header{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 520px;
+    color: white;
+}
+
+.text-header h2{
+    font-family: "Quicksand", sans-serif;
+    font-size: 7.4vh;
+    font-weight: 200;
+}
+
+.text-header strong{
+    color: #6BCCEB;
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.352);
+}
+
+.text-header p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 3vh;
+}
+
+.img-header img{
+    display: flex;
+    height: 75vh;
+    filter: drop-shadow(2px -1px 10px rgba(13, 13, 13, 0.496));
+}
+
+.sobre-c{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+    padding: 80px 130px;
+}
+
+.text-sobre{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 500px;
+}
+
+.text-sobre h2{
+    font-family: "Quicksand", sans-serif;
+    font-size: 6vh;
+    font-weight: 300;
+}
+
+.text-sobre strong{
+    color: #6BCCEB;
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.658);
+}
+
+.text-sobre p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 3.5vh;
+}
+
+.serviços{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    gap: 120px;
+}
+
+.serviços h2{
+    font-size: 6vh;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+}  
+
+.serviços strong{
+    color: #6BCCEB;
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.658);
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 25px;
+
+    height: 300px;
+    width: 270px;
+
+    background-color: #0f5ca4b2;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.178);
+    transition: 1s;
+}
+
+.card:nth-child(2) {
+    margin-top: -40px;
+}
+
+.card img{
+    height: 64px;
+}
+
+.card h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 3.5vh;
+    font-weight: 500;
+    color: white;
+}
+
+.card p{
+    font-family: "Poppins", sans-serif;
+    font-size: 3vh;
+    color: white;
+}
+
+.card:hover{
+    transition: 1s;
+    scale: 1.1;
+}
+
+.area-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+    background-image: url(./assets/2148985783\ 1.png);
+    background-position: center;
+    background-size: 230vh;
+}
+
+.area-add h2{
+    font-size: 6vh;
+    text-align: center;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.area-add strong{
+    color: #6BCCEB;
+    font-weight: 300;
+    background-color: rgba(0, 0, 0, 0.658);
+}
+
+.loc{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    gap: 50px;
+}
+
+.loc h2{
+    font-size: 6vh;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+}
+
+.loc-itens{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.text-loc{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.text-loc h3{
+    font-size: 5vh;
+    font-weight: 500;
+}
+
+.text-loc h4{
+    font-size: 4vh;
+    font-weight: 500;
+}
+
+.credits{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.credits img{
+    height: 5vh;
+}
+
+.credits h3{
+    font-family: "Poppins", sans-serif;
+}
+
+.credits a{
+    color: #6BCCEB;
+}
+
+@media screen and (width < 560px){
+    .botton a{
+        width: 10px;
+        padding: 5px;
+        text-decoration: none;
+    
+        color: white;
+        font-size: 3vh;
+        font-family: "Open Sans", sans-serif;
+    
+        border-radius: 10px;
+        background-color: #6BCCEB;
+        border: 1px solid black;
+    }
+    
+    .nav-bar{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .nav-bar img{
+        height: 3.5vh;
+    }
+    
+    .nav-list{
+        display: none;
+    }
+
+    .nav-bar .botton a{
+        display: none;
+    }
+
+    .header{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        justify-items: center;
+        padding-top: 30px;
+
+        background-size: 280vh;
+    }
+    
+    .text-header{
+        display: flex;
+        flex-direction: column;
+        width: 340px;
+    }
+    
+    .text-header h2{
+        font-size: 5.5vh;
+    }
+    
+    .text-header p{
+        font-family: "Open Sans", sans-serif;
+        font-size: 3vh;
+    }
+    
+    .img-header img{
+        padding-top: 20px;
+        height: 40vh;
+    }
+    
+    .sobre-c{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        align-items: center;
+        padding: 80px 20px;
+    }
+
+    .sobre-c img{
+        height: 55vh;
+    }
+    
+    .text-sobre{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 320px;
+    }
+    
+    .text-sobre h2{
+        font-family: "Quicksand", sans-serif;
+        font-size: 5vh;
+        font-weight: 300;
+    }
+    
+    .text-sobre p{
+        font-family: "Open Sans", sans-serif;
+        font-size: 3vh;
+    }
+    
+    .serviços{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+        gap: 50px;
+    }
+    
+    .serviços h2{
+        display: flex;
+        font-size: 5vh;
+    }  
+    
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+    }
+    
+    .card{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+
+        width: 250px;
+    }
+    
+    .card:nth-child(2) {
+        margin-top: 0px;
+    }
+    
+    .area-add{
+        background-size: 175vh;
+    }
+    
+    .area-add h2{
+        font-size: 5vh;
+    }
+
+    .loc{
+        display: flex;
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 50px;
+    }
+    
+    .loc h2{
+        display: flex;
+        justify-content: center;
+        font-size: 5vh;
+    }
+    
+    .loc-itens{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        align-items: center;
+    }
+
+    .loc-itens img{
+        padding-top: 20px;
+        height: 30vh;
+    }
+    
+    .text-loc{
+        text-align: center;
+        gap: 10px;
+    }
+    
+    .text-loc h3{
+        font-size: 4vh;
+    }
+    
+    .text-loc h4{
+        font-size: 3vh;
+    }
+    
+    
+    .credits h3{
+        font-size: 2.5vh;
+        text-align: center;
+    } 
+}
