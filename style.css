@@ -346,7 +346,7 @@ html{
     
     .text-header p{
         font-family: "Open Sans", sans-serif;
-        font-size: 3vh;
+        font-size: 2.5vh;
     }
     
     .img-header img{
@@ -363,14 +363,14 @@ html{
     }
 
     .sobre-c img{
-        height: 42vh;
+        height: 45vh;
     }
     
     .text-sobre{
         display: flex;
         flex-direction: column;
         gap: 20px;
-        width: 320px;
+        width: 340px;
     }
     
     .text-sobre h2{
@@ -381,7 +381,7 @@ html{
     
     .text-sobre p{
         font-family: "Open Sans", sans-serif;
-        font-size: 3vh;
+        font-size: 2,5vh;
     }
     
     .serviços{
@@ -393,7 +393,6 @@ html{
     }
     
     .serviços h2{
-        display: flex;
         text-align: center;
         font-size: 5vh;
     }  
@@ -464,7 +463,6 @@ html{
     .text-loc h4{
         font-size: 3vh;
     }
-    
     
     .credits h3{
         font-size: 2.5vh;
