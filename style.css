@@ -174,7 +174,7 @@ html{
     padding: 20px;
     gap: 25px;
 
-    height: 300px;
+    height: 360px;
     width: 270px;
 
     background-color: #0f5ca4b2;
@@ -419,7 +419,7 @@ html{
     
     .area-add{
         height: 360px;
-        background-size: 175vh;
+        background-size: cover;
     }
     
     .area-add h2{
